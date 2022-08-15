@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../images/hero.png"
+import hero from "../images/hero2.jpeg"
 import mailLogo from "../images/Mail.png"
 import linkedinLogo from "../images/linkedin.png"
 
@@ -8,9 +8,9 @@ function Info() {
         <div className="info-container">
             <img src={hero} className="hero" />
             <div className="description">
-                <h1>Laura Smith</h1>
+                <h1>John Idenyi</h1>
                 <p className="job-title">Frontend Developer</p>
-                <p className="email">laurasmith.website</p>
+                <p className="email">johnidenyi.website</p>
                 <div className="buttons">
                     <button className="email-btn btn">
                         <img src={mailLogo} />
