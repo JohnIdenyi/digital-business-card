@@ -9,8 +9,8 @@ function Info() {
             <img src={hero} className="hero" />
             <div className="description">
                 <h1>Laura Smith</h1>
-                <h4>Frontend Developer</h4>
-                <p>laurasmith.website</p>
+                <p className="job-title">Frontend Developer</p>
+                <p className="email">laurasmith.website</p>
                 <div className="buttons">
                     <button className="email-btn btn">
                         <img src={mailLogo} />
